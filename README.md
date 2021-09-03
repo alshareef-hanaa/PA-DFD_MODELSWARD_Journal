@@ -18,13 +18,13 @@ Usage
 
 2- Export xml file of DFD from draw.io 
  
-3- Clone the [GitHub repository](https://github.com/alshareef-hanaa/PA-DFD):
+3- Clone the [GitHub repository](https://github.com/alshareef-hanaa/PA-DFD_MODELSWARD_Journal.git):
 
-    $ git clone https://github.com/alshareef-hanaa/PA-DFD.git
+    $ git clone https://github.com/alshareef-hanaa/PA-DFD_MODELSWARD_Journal.git
     
 4- Go into directory where the script(dfd_to_padfd.py) and the xml file of DFD, which you have exported in steps 2. To run the  the script(dfd_to_padfd.py) from the terminal, you need to provide the file names of csv file for DFD, csv file for PA-DFD and xml file for PA-DFD as arguments, use the following command: 
 
-    $ python dfd_to_padfd.py "the name of DFD xml file" "the name of DFD csv file" 
+    $ python3 dfd_to_padfd.py "the name of DFD xml file" "the name of DFD csv file" 
       "the name of PA-DFD csv file" "the name of PA-DFD xml file" 
  
 5- Deployment: import the PA-DFD xml file in draw.io and modify the layout of your diagram
@@ -36,7 +36,7 @@ Example
 
 Amazon_dfd_in_comp.drawio contains subpart of the case study which is Amazon level-0 DFD. This example focus on the usage hotspot. The DFD is exported as xml file from drawio tool and called Amazon_dfd_in_comp.xml. From the directory where we have the script(dfd_to_padfd.py) and aforementioned file, we have run the following:
 
-     $ python dfd_to_padfd.py Amazon_dfd_in_comp.xml  Amazon_dfd_in_comp.csv
+     $ python3 dfd_to_padfd.py Amazon_dfd_in_comp.xml  Amazon_dfd_in_comp.csv
        Amazon_padfd_in_comp.csv Amazon_padfd_in_comp.xml 
 
 where the third, fourth and fifth arguments are the name of DFD csv file, PA-DFD csv file and PA-DFD xml file, respectively.
