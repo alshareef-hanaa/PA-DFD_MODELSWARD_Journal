@@ -1,0 +1,10 @@
+id,value,style,source,target,type
+2,construction project,rounded=0,null,null,external_entity
+3,capture completed tasks via smart sensor,ellipse,null,null,process
+4,auto-assign status data,ellipse,null,null,process
+5,subcontract agreement,shape=partialRectangle,null,null,data_base
+6,project database,shape=partialRectangle,null,null,data_base
+7,completed sub-tasks,endArrow=classic,2,3,endArrow=classic
+8,scope of works,endArrow=classic,5,3,endArrow=classic
+9,real-time location info,endArrow=classic,3,6,endArrow=classic
+10,status,endArrow=classic,6,4,endArrow=classic
