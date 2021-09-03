@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel dx="1106" dy="1005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+ <root>
+ <mxCell id="0"/>
+  <mxCell id="1" parent="0"/>
+  <mxCell id= "2" value= "Customer" style= "rounded=0;whiteSpace=wrap;" vertex="1" parent="1" >
+ <mxGeometry x="560" y="480" width="100" height="100" as="geometry"/>
+ </mxCell>
+  <mxCell id= "3" value= "Get Customer Information" style= "ellipse;whiteSpace=wrap;" vertex="1" parent="1" >
+ <mxGeometry x="560" y="480" width="100" height="100" as="geometry"/>
+ </mxCell>
+  <mxCell id= "4" value= "Create Amazon Account" style= "ellipse;whiteSpace=wrap;" vertex="1" parent="1" >
+ <mxGeometry x="560" y="480" width="100" height="100" as="geometry"/>
+ </mxCell>
+  <mxCell id= "5" value= "Create Account?" style= "endArrow=classic;whiteSpace=wrap;" source= "19" target= "4" edge="1" parent="1" >
+<mxGeometry width="50" height="50" as="geometry">
+ <mxPoint x="210" y="490" as="sourcePoint"/>
+ <mxPoint x="450" y="410" as="targetPoint"/>
+ </mxGeometry>
+ </mxCell>
+  <mxCell id= "6" value= "Customer Info?" style= "endArrow=classic;whiteSpace=wrap;" source= "9" target= "3" edge="1" parent="1" >
+<mxGeometry width="50" height="50" as="geometry">
+ <mxPoint x="210" y="490" as="sourcePoint"/>
+ <mxPoint x="450" y="410" as="targetPoint"/>
+ </mxGeometry>
+ </mxCell>
+  <mxCell id= "7" value= "(p)reason Get Customer Information" style= "ellipse;whiteSpace=wrap;" vertex="1" parent="1" >
+ <mxGeometry x="560" y="480" width="100" height="100" as="geometry"/>
+ </mxCell>
+  <mxCell id= "8" value= "(p)reason Create Amazon Account" style= "ellipse;whiteSpace=wrap;" vertex="1" parent="1" >
+ <mxGeometry x="560" y="480" width="100" height="100" as="geometry"/>
+ </mxCell>
+  <mxCell id= "9" value= "limit 0" style= "ellipse;whiteSpace=wrap;" vertex="1" parent="1" >
+ <mxGeometry x="560" y="480" width="100" height="100" as="geometry"/>
+ </mxCell>
+  <mxCell id= "10" value= "(p)request 0" style= "ellipse;whiteSpace=wrap;" vertex="1" parent="1" >
+ <mxGeometry x="560" y="480" width="100" height="100" as="geometry"/>
+ </mxCell>
+  <mxCell id= "11" value= "log 0" style= "ellipse;whiteSpace=wrap;" vertex="1" parent="1" >
+ <mxGeometry x="560" y="480" width="100" height="100" as="geometry"/>
+ </mxCell>
+  <mxCell id= "12" value= "DB log 0" style= "shape=partialRectangle;whiteSpace=wrap;left=0;right=0;" vertex="1" parent="1" >
+ <mxGeometry x="560" y="480" width="100" height="100" as="geometry"/>
+ </mxCell>
+  <mxCell id= "13" value= "Customer Info" style= "endArrow=classic;whiteSpace=wrap;" source= "2" target= "9" edge="1" parent="1" >
+<mxGeometry width="50" height="50" as="geometry">
+ <mxPoint x="210" y="490" as="sourcePoint"/>
+ <mxPoint x="450" y="410" as="targetPoint"/>
+ </mxGeometry>
+ </mxCell>
+  <mxCell id= "14" value= "pol" style= "endArrow=classic;whiteSpace=wrap;" source= "2" target= "10" edge="1" parent="1" >
+<mxGeometry width="50" height="50" as="geometry">
+ <mxPoint x="210" y="490" as="sourcePoint"/>
+ <mxPoint x="450" y="410" as="targetPoint"/>
+ </mxGeometry>
+ </mxCell>
+  <mxCell id= "15" value= "Customer Info,pol,v" style= "endArrow=classic;whiteSpace=wrap;" source= "9" target= "11" edge="1" parent="1" >
+<mxGeometry width="50" height="50" as="geometry">
+ <mxPoint x="210" y="490" as="sourcePoint"/>
+ <mxPoint x="450" y="410" as="targetPoint"/>
+ </mxGeometry>
+ </mxCell>
+  <mxCell id= "16" value= "Customer Info,pol,v" style= "endArrow=classic;whiteSpace=wrap;" source= "11" target= "12" edge="1" parent="1" >
+<mxGeometry width="50" height="50" as="geometry">
+ <mxPoint x="210" y="490" as="sourcePoint"/>
+ <mxPoint x="450" y="410" as="targetPoint"/>
+ </mxGeometry>
+ </mxCell>
+  <mxCell id= "17" value= "pol" style= "endArrow=classic;whiteSpace=wrap;" source= "10" target= "9" edge="1" parent="1" >
+<mxGeometry width="50" height="50" as="geometry">
+ <mxPoint x="210" y="490" as="sourcePoint"/>
+ <mxPoint x="450" y="410" as="targetPoint"/>
+ </mxGeometry>
+ </mxCell>
+  <mxCell id= "18" value= "pol" style= "endArrow=classic;whiteSpace=wrap;" source= "10" target= "7" edge="1" parent="1" >
+<mxGeometry width="50" height="50" as="geometry">
+ <mxPoint x="210" y="490" as="sourcePoint"/>
+ <mxPoint x="450" y="410" as="targetPoint"/>
+ </mxGeometry>
+ </mxCell>
+  <mxCell id= "19" value= "limit 1" style= "ellipse;whiteSpace=wrap;" vertex="1" parent="1" >
+ <mxGeometry x="560" y="480" width="100" height="100" as="geometry"/>
+ </mxCell>
+  <mxCell id= "20" value= "(p)request 1" style= "ellipse;whiteSpace=wrap;" vertex="1" parent="1" >
+ <mxGeometry x="560" y="480" width="100" height="100" as="geometry"/>
+ </mxCell>
+  <mxCell id= "21" value= "log 1" style= "ellipse;whiteSpace=wrap;" vertex="1" parent="1" >
+ <mxGeometry x="560" y="480" width="100" height="100" as="geometry"/>
+ </mxCell>
+  <mxCell id= "22" value= "DB log 1" style= "shape=partialRectangle;whiteSpace=wrap;left=0;right=0;" vertex="1" parent="1" >
+ <mxGeometry x="560" y="480" width="100" height="100" as="geometry"/>
+ </mxCell>
+  <mxCell id= "23" value= "Create Account" style= "endArrow=classic;whiteSpace=wrap;" source= "3" target= "19" edge="1" parent="1" >
+<mxGeometry width="50" height="50" as="geometry">
+ <mxPoint x="210" y="490" as="sourcePoint"/>
+ <mxPoint x="450" y="410" as="targetPoint"/>
+ </mxGeometry>
+ </mxCell>
+  <mxCell id= "24" value= "pol" style= "endArrow=classic;whiteSpace=wrap;" source= "7" target= "20" edge="1" parent="1" >
+<mxGeometry width="50" height="50" as="geometry">
+ <mxPoint x="210" y="490" as="sourcePoint"/>
+ <mxPoint x="450" y="410" as="targetPoint"/>
+ </mxGeometry>
+ </mxCell>
+  <mxCell id= "25" value= "Create Account,pol,v" style= "endArrow=classic;whiteSpace=wrap;" source= "19" target= "21" edge="1" parent="1" >
+<mxGeometry width="50" height="50" as="geometry">
+ <mxPoint x="210" y="490" as="sourcePoint"/>
+ <mxPoint x="450" y="410" as="targetPoint"/>
+ </mxGeometry>
+ </mxCell>
+  <mxCell id= "26" value= "Create Account,pol,v" style= "endArrow=classic;whiteSpace=wrap;" source= "21" target= "22" edge="1" parent="1" >
+<mxGeometry width="50" height="50" as="geometry">
+ <mxPoint x="210" y="490" as="sourcePoint"/>
+ <mxPoint x="450" y="410" as="targetPoint"/>
+ </mxGeometry>
+ </mxCell>
+  <mxCell id= "27" value= "pol" style= "endArrow=classic;whiteSpace=wrap;" source= "20" target= "19" edge="1" parent="1" >
+<mxGeometry width="50" height="50" as="geometry">
+ <mxPoint x="210" y="490" as="sourcePoint"/>
+ <mxPoint x="450" y="410" as="targetPoint"/>
+ </mxGeometry>
+ </mxCell>
+  <mxCell id= "28" value= "pol" style= "endArrow=classic;whiteSpace=wrap;" source= "20" target= "8" edge="1" parent="1" >
+<mxGeometry width="50" height="50" as="geometry">
+ <mxPoint x="210" y="490" as="sourcePoint"/>
+ <mxPoint x="450" y="410" as="targetPoint"/>
+ </mxGeometry>
+ </mxCell>
+</root>
+</mxGraphModel>

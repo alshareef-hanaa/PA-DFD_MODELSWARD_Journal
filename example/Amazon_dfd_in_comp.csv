@@ -1,0 +1,6 @@
+id,value,style,source,target,type
+2,Customer,rounded=0,null,null,external_entity
+3,Get Customer Information,ellipse,null,null,process
+4,Create Amazon Account,ellipse,null,null,process
+5,Create Account,endArrow=classic,3,4,endArrow=classic
+6,Customer Info,endArrow=classic,2,3,endArrow=classic
