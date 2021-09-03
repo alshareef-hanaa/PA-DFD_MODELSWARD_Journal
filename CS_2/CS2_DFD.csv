@@ -1,0 +1,13 @@
+id,value,style,source,target,type
+2,Customer,rounded=0,null,null,external_entity
+3,5.Get Customer Information,ellipse,null,null,process
+4,Add/Remove Product,endArrow=classic,2,9,endArrow=classic
+5,6.Create Amazon Account,ellipse,null,null,process
+6,Create Account,endArrow=classic,3,5,endArrow=classic
+7,Customer Info,endArrow=classic,2,3,endArrow=classic
+8,Customer Database,shape=partialRectangle,null,null,data_base
+9,3. Shopping Cart Function,ellipse,null,null,process
+10,Customer Shopping Cart,shape=partialRectangle,null,null,data_base
+11,Remove Product Order,endArrow=cross,9,10,endArrow=cross
+12,Customer ID,endArrow=classic,3,2,endArrow=classic
+13,Loging In,endArrow=classic,3,8,endArrow=classic
